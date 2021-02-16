@@ -5,9 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <style>
+    #table1{
+      border-collapse: collapse;
+      table-layout: fixed;
+      width: 700px;
+    }
+
+    #table1 th{
+      border: 2px solid black;
+
+    }
+
+    #table1 td{
+      border: 1px solid black;
+      text-align: left;
+    }
+  </style>
 </head>
 <body>
-  <table border = "1">
+  <table id="table1">
     <thead>
       <tr>
         <th colspan="11">Итоги продаж за два года</th>
@@ -30,7 +47,7 @@
     </thead>
     <tbody>
       <tr>
-        <td rowspan="3">Мебель</td>
+        <td rowspan="3" style="transform: rotate(-90deg)">Мебель</td>
         <td colspan="2">Шкафы</td>
         <td>100</td>
         <td>0</td>
@@ -64,7 +81,7 @@
         <td>0</td>
       </tr>
       <tr>
-        <td rowspan="4">Посуда</td>
+        <td rowspan="4" style="transform: rotate(-90deg)">Посуда</td>
         <td colspan="2">Тарелки</td>
         <td>0</td>
         <td>0</td>
