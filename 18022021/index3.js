@@ -1,5 +1,8 @@
-function myFunction(){
+function getMyInput(){
   var x = document.getElementById('myInput').value;
   var y = document.getElementById('demo').innerHTML = x;
-  x.style.color = "red"; 
+}
+
+function deleteMyInput(){
+  var x = document.getElementById('demo').innerHTML = "";
 }
