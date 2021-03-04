@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+  .btn-success{
+    background-color: green;
+  }
+  .btn-color{
+    color:black;
+  }
+  </style>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+</head>
+<body>
+  <img src="beach.jpg" alt="beach" class="img-responsive center-block img-thumbnail" width="300px"><br>
+
+<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample">
+  Button link
+</button>
+<div class="collapse" id="collapseExample">
+  <div class="well">
+    <img src="beach.jpg" alt="" class="img-circle">
+  </div>
+</div><br><br>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        Hello world!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<button class="btn">Click me</button><br><br>
+
+<div>
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+  </ul>
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="home">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+              Last Christmas I gave you my heart
+              But the very next day you gave it away
+              This year, to save me from tears
+              I'll give it to someone special
+              Last Christmas I gave you my heart
+              But the very next day you gave it away (you gave it away)
+              This year, to save me from tears
+              I'll give it to someone special (special)
+              Once bitten and twice shy
+              I keep my distance, but you still catch my eye
+              Tell me baby, do you recognize me?
+              Well, it's been a year, it doesn't surprise me
+              "Merry Christmas" I wrapped it up and sent it
+              With a note saying "I love you", I meant it
+              Now I know what a fool I've been
+              But if you kissed me now, I know you'd fool me again
+              Last Christmas I gave you my heart
+              But the very next day you gave it away (you gave it away)
+              This year, to save me from tears
+              I'll…
+              <img class="img center-block"src="beach.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="profile">Profile</div>
+    <div role="tabpanel" class="tab-pane" id="messages">messages</div>
+    <div role="tabpanel" class="tab-pane" id="settings">settings</div>
+  </div>
+
+</div><br><br>
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0"></li>
+    <li data-target="#carousel-example-generic"  data-slide-to="1" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img class="center-block" src="beach.jpg" alt="..." width="200px">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    <div class="item">
+      <iframe class ="center-block" id ="slide1" width="560" height="315" src="https://www.youtube.com/embed/McC4QkCvbaY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    ...
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div><br><br><br>
+
+<div class="container">
+  <a href="#" data-toggle="tooltip" data-placement="right" title="this is a tooltip"> Hello world!</a>
+
+</div><br><br>
+<div class="container"></div>
+  <div class="dropdown">
+    <button class="btn btn-info dropdown-toggle" data-toggle="dropdown">Apples <span class="caret"></span></button>
+    <button class="btn btn-info dropdown-toggle" data-toggle="dropdown">Banana <span class="caret"></span></button>
+    <ul class="dropdown-menu" aria-labelledby="dLabel">
+      <li> <a href="#">Green</a></li>
+      <li> <a href="#">Red</a></li>
+      <li> <a href="#">Blue</a></li>
+    </ul>
+  </div>
+</div><br>
+  <br>
+
+<script>
+  $(function () {
+  $('[dropdown-toggle="toggle"]').dropdown()
+})
+</script>
+
+</body>
+</html>
