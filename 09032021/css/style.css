@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.block:not(.first) {
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: red;
+  margin-bottom: 10px;
+}
+
+.first {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: red;
+  margin-bottom: 10px;
+}
+.first:hover {
+  height: 500px;
+}
+
+#list {
+  padding: 10px;
+  margin-left: 30px;
+  list-style: none;
+}
+#list li {
+  font-size: 1.7em;
+  font-family: monospace;
+  color: yellow;
+  font-weight: bold;
+  text-decoration: underline;
+  float: left;
+  width: 20%;
+}
+#list .a1 {
+  color: white;
+}
+
+.a2 {
+  font-size: 1.7em;
+  font-family: monospace;
+  color: yellow;
+  font-weight: bold;
+  color: black;
+}
+.a2:hover {
+  color: blue;
+}
+.a2:active {
+  color: yellow;
+}
+.a2:visited {
+  color: green;
+}
+
+#grid {
+  width: 100%;
+  float: left;
+  background: pink;
+}
+#grid div {
+  float: left;
+  background: red;
+  margin-right: 0.5%;
+  margin-bottom: 0.5%;
+  height: 200px;
+  width: 24.5%;
+}

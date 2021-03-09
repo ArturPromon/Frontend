@@ -1,0 +1,30 @@
+@mixin link($color1, $color2, $color3, $color4){
+  color:$color1;
+
+  &:hover{
+    color:$color2;
+  }
+  &:active{
+    color:$color3;
+  }
+  &:visited{
+    color:$color4;
+  }
+}
+
+@mixin font ($color, $fontW){
+  font-size:1.7em;
+  font-family: monospace;
+  color: $color;
+  font-weight: $fontW;
+}
+
+@mixin grid($sum, $margin){
+  float:left;
+  background: red;
+  margin-right: $margin;
+  margin-bottom: $margin;
+  height:200px;
+  width: ((100% - ($sum) * $margin) /$sum);
+
+}
